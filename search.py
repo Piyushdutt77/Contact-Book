@@ -9,5 +9,5 @@ def search_contact(contacts):
             found=True
 
     if found==False:
-        print("Not found\n")
+        print("Not found!")
         
