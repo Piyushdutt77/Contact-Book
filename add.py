@@ -5,4 +5,4 @@ def add_contact(contacts):
     contact={"name":name,"phone":phone}
     contacts.append(contact)
 
-    print("Contact added\n")
+    print("Contact added!")
