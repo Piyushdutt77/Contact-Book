@@ -4,7 +4,7 @@ def delete_contact(contacts):
     for c in contacts:
         if c["name"].lower()==name.lower():
             contacts.remove(c)
-            print("Deleted\n")
+            print("Deleted")
             return
 
-    print("Not found\n")
+    print("Not found")
