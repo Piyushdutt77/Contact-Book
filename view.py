@@ -1,9 +1,9 @@
 def view_contacts(contacts):
     if len(contacts)==0:
-        print("No contacts\n")
+        print("No contacts")
         return
 
-    print("\nContacts:")
+    print("Contacts:")
     for c in contacts:
         print(c["name"],c["phone"])
     print()
